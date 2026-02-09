@@ -17,8 +17,8 @@ spec:
           image: mmgad/reddit-clone-pipeline:1.0.0-10
           resources:
             limits:
-              cpu: "1"
+              cpu: "200m"
             requests:
-              cpu: "500m"
+              cpu: "100m"
           ports:
             - containerPort: 3000
